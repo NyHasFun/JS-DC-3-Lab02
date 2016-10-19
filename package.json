@@ -1,0 +1,25 @@
+{
+  "name": "tunr",
+  "version": "1.0.0",
+  "description": "Tunr is the worlds #1 music web app. Those Spotify haters can't keep up with us!",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ny8nine/JS-DC-3-Lab02.git"
+  },
+  "author": "Nyasha",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ny8nine/JS-DC-3-Lab02/issues"
+  },
+  "homepage": "https://github.com/ny8nine/JS-DC-3-Lab02#readme",
+  "dependencies": {
+    "body-parser": "^1.15.2",
+    "express": "^4.14.0",
+    "express-handlebars": "^3.0.0",
+    "mongoose": "^4.6.4"
+  }
+}
