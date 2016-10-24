@@ -12,9 +12,11 @@
  - require
  - create connection - mongoose.connect('mongodb://localhost:27017/tunr')
  - run mongod
- -create artists.js
+ - artists.js - artist schema
 4. Homepage (index)
 5. Artist model with Spotify API
+ - Submit button searches Spotify using API
+ - updates the Current Artist object
 6. Artist View
 5. Song model with Spotify API
 6. Song view

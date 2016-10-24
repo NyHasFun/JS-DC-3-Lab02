@@ -1,1 +1,16 @@
-<h1>Hello World!</h1>
+<h1>Home Page!</h1>
+<a href="/artists/new">Add New Artist</a>
+<br>
+<ul class="list-unstyled list-inline">
+  {{#each artists}}
+  {{#if name}}
+  <li>
+    <a href="/artists/{{id}}">
+      <img src={{imageUrl}} width="50"><br>
+      {{name}}
+    </a>
+  </li>
+
+  {{/if}}
+  {{/each}}
+</ul>
