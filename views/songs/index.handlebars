@@ -1,0 +1,16 @@
+<h1>Songs Page!</h1>
+<a href="/songs/new">Add New Song</a>
+<br>
+<ul class="list-unstyled list-inline">
+  {{#each songs}}
+  {{#if name}}
+  <li>
+    <a href="/songs/{{id}}">
+      <img src={{imageUrl}} width="50"><br>
+      {{name}}
+    </a>
+  </li>
+
+  {{/if}}
+  {{/each}}
+</ul>
